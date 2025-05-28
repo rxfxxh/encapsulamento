@@ -16,3 +16,8 @@ livro1 = Livro("Rafael do Capa") # Cria um **objeto** 'livro1' com o título ini
 print(f"titulo antigo: {livro1.mostrar_titulo()}") # Exibe o título **antes** da mudança.
 livro1.set_titulo("titulo atualizado") # **Chama** o método para mudar o título.
 print(f"titulo novo: {livro1.mostrar_titulo()}") # Exibe o título **depois** da mudança.
+
+livro2 = Livro("vitor do papiro") # Cria um **objeto** 'livro2' com o título inicial.
+print(f"titulo antigo: {livro2.mostrar_titulo()}") # Exibe o título **antes** da mudança.
+livro2.set_titulo("titulo vitor atualizado") # **Chama** o método para mudar o título.
+print(f"titulo novo: {livro2.mostrar_titulo()}") # Exibe o título **depois** da mudança.
